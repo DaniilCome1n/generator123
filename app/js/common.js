@@ -3,6 +3,7 @@
 if (document.querySelector('#button')) {
     var setValueToLocalStorage = function setValueToLocalStorage() {
         var input = document.querySelector('#number');
+        console.log(input.value);
         localStorage.setItem("value", JSON.stringify(input.value));
     };
 
