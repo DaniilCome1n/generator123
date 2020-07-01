@@ -1,0 +1,40 @@
+@import 'reset';
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    .main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:200px;
+        .number{
+            width:250px;
+            height:50px;
+            text-align: center;
+            font-size: 30px;
+            border:1px solid black; 
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+        }
+        .number::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .number::placeholder{
+            font-size: 20px;
+        }
+        .goto{
+            margin-top:20px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+    }
+}
